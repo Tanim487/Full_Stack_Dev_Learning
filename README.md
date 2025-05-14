@@ -1,5 +1,5 @@
 # 📓 Node.js Notes for beginners
-                                                                              – My Personal Learning Journal
+                                                                           – My Personal Learning Journal
 
 <div align="center">
   
