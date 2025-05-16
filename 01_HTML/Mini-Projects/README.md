@@ -17,6 +17,7 @@ _A collection of pure HTML form projects demonstrating form creation and styling
 
 - [About The Projects](#about-the-projects)
   - [Built With](#built-with)
+- [Project Structure](#project-structure)
   - [Project Descriptions](#project-descriptions)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -24,7 +25,6 @@ _A collection of pure HTML form projects demonstrating form creation and styling
 - [Usage](#usage)
   - [Project Screenshots](#project-screenshots)
   - [How to Run](#how-to-run)
-- [Project Structure](#project-structure)
 - [Learning Resources](#learning-resources)
 - [Contributing](#contributing)
 - [License](#license)
@@ -48,6 +48,21 @@ These projects were created using:
 * HTML Forms and Input Elements
 * HTML Tables for layout (for learning purposes)
 * HTML Semantic Elements
+
+### Project Screenshots
+
+<div align="center" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+
+| HTML workplace | Basic Registration Form | Student Registration Form |
+|-------------------------|--------------------------|---------------------|
+| ![Basic](https://raw.githubusercontent.com/Tanim487/Full_Stack_Dev_Learning/main/01_HTML/Mini-Projects/screenshots/00.png)| ![Student](https://raw.githubusercontent.com/Tanim487/Full_Stack_Dev_Learning/main/01_HTML/Mini-Projects/screenshots/01.png) | ![HTML](https://raw.githubusercontent.com/Tanim487/Full_Stack_Dev_Learning/main/01_HTML/Mini-Projects/screenshots/02.png) |
+| [View Live Demo](https://tanim487.github.io/Full_Stack_Dev_Learning/01_HTML/Mini-Projects/00_HTML_Playground.html) | [View Live Demo](https://tanim487.github.io/Full_Stack_Dev_Learning/01_HTML/Mini-Projects/01_Basic_RegistrationForm.html) | [View Live Demo](https://tanim487.github.io/Full_Stack_Dev_Learning/01_HTML/Mini-Projects/02_Student_RegistrationForm.html) |
+
+
+</div>
+
+
+
 
 ### Project Descriptions
 
@@ -122,20 +137,6 @@ These projects can be used as:
 - Starting templates for your own projects
 - Teaching materials for HTML form concepts
 - References for various form elements and attributes
-
-### Project Screenshots
-
-<div align="center" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
-
-| HTML workplace | Basic Registration Form | Student Registration Form |
-|-------------------------|--------------------------|---------------------|
-| ![Basic](https://raw.githubusercontent.com/Tanim487/Full_Stack_Dev_Learning/main/01_HTML/Mini-Projects/screenshots/00.png)| ![Student](https://raw.githubusercontent.com/Tanim487/Full_Stack_Dev_Learning/main/01_HTML/Mini-Projects/screenshots/01.png) | ![HTML](https://raw.githubusercontent.com/Tanim487/Full_Stack_Dev_Learning/main/01_HTML/Mini-Projects/screenshots/02.png) |
-| [View Live Demo](https://tanim487.github.io/Full_Stack_Dev_Learning/01_HTML/Mini-Projects/00_HTML_Playground.html) | [View Live Demo](https://tanim487.github.io/Full_Stack_Dev_Learning/01_HTML/Mini-Projects/01_Basic_RegistrationForm.html) | [View Live Demo](https://tanim487.github.io/Full_Stack_Dev_Learning/01_HTML/Mini-Projects/02_Student_RegistrationForm.html) |
-
-
-</div>
-
-
 
 ### How to Run
 
