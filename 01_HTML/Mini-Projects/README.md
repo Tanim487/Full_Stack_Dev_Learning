@@ -74,7 +74,7 @@ A simple registration form that collects basic user information including:
 * Educational qualification dropdown
 * Hobbies checkboxes
 * Address input
-* [Go to Repository](https://github.com/Tanim487/Full_Stack_Dev_Learning/tree/main/01_HTML/Mini-Projects/01_Basic_Registration_Form)
+* [Go to Repository](https://github.com/Tanim487/Full_Stack_Dev_Learning/tree/main/01_HTML/Mini-Projects/01_Basic_RegistrationForm.html)
 
 #### 02. Student Registration Form
 A comprehensive student registration form with sections for:
@@ -85,7 +85,7 @@ A comprehensive student registration form with sections for:
 * Extracurricular Activities
 * Interests and Achievements
 * Scholarship Information
-* [Go to Repository](https://github.com/Tanim487/Full_Stack_Dev_Learning/tree/main/01_HTML/Mini-Projects/01_Student_Registration_Form)
+* [Go to Repository](https://github.com/Tanim487/Full_Stack_Dev_Learning/tree/main/01_HTML/Mini-Projects/01_Student_RegistrationForm.html)
 
 
 
