@@ -211,7 +211,7 @@ Whatsapp - [Message me](https://wa.me/+8801729778210)
 
 Social - [Linkedin](https://www.linkedin.com/in/mtanim487/) - [Facebook](https://www.facebook.com/tanim487)
 
-Email - [mail Me on mtanim23487@gmail.com](mailto:mtanim23487@gmail.com)
+Email - [mtanim23487@gmail.com](mailto:mtanim23487@gmail.com)
 
 
 ## Acknowledgements
