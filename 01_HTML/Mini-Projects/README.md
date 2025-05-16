@@ -126,20 +126,17 @@ These projects can be used as:
 
 ### Project Screenshots
 
-#### Basic Registration Form
-<div align="center">
-  <img src="https://via.placeholder.com/600x400" alt="Basic Registration Form" width="600"/>
+<div align="center" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+
+| HTML workplace | Basic Registration Form | Student Registration Form |
+|-------------------------|--------------------------|---------------------|
+| ![Basic](https://raw.githubusercontent.com/Tanim487/Full_Stack_Dev_Learning/main/01_HTML/Mini-Projects/screenshots/00.png)| ![Student](https://raw.githubusercontent.com/Tanim487/Full_Stack_Dev_Learning/main/01_HTML/Mini-Projects/screenshots/01.png) | ![HTML](https://raw.githubusercontent.com/Tanim487/Full_Stack_Dev_Learning/main/01_HTML/Mini-Projects/screenshots/02.png) |
+| [View Live Demo](https://tanim487.github.io/Full_Stack_Dev_Learning/01_HTML/Mini-Projects/00_HTML_Playground.html) | [View Live Demo](https://tanim487.github.io/Full_Stack_Dev_Learning/01_HTML/Mini-Projects/01_Basic_RegistrationForm.html) | [View Live Demo](https://tanim487.github.io/Full_Stack_Dev_Learning/01_HTML/Mini-Projects/02_Student_RegistrationForm.html) |
+
+
 </div>
 
-#### Student Registration Form
-<div align="center">
-  <img src="https://via.placeholder.com/600x400" alt="Student Registration Form" width="600"/>
-</div>
 
-#### HTML Reference Guide
-<div align="center">
-  <img src="https://via.placeholder.com/600x400" alt="HTML Reference Guide" width="600"/>
-</div>
 
 ### How to Run
 
