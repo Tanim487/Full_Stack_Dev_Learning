@@ -428,12 +428,9 @@ Emmet is a plugin for many code editors that helps write HTML quickly:
   
 ---
 
-### 🚀 Check Out My Mini Project!
-> 🔗 [👉 Visit the Project Repository Here!](https://github.com/your-username/your-mini-project)  
-🎯 See real-world usage of everything you learned in this guide.
+## Check Out My Mini Project!
+> 🔗 [👉 Visit the Project Repository Here!](https://github.com/Tanim487/Full_Stack_Dev_Learning/tree/main/01_HTML/Mini-Projects)  
 
----
----
 **Happy Coding! 🎉**
 ---
 
