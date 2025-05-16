@@ -160,7 +160,7 @@ html-form-projects/
 └── README.md                   # This file
 ```
 
-## 📚 Learning Resources
+## Learning Resources
 
 These resources can help you learn more about HTML forms:
 
@@ -181,7 +181,7 @@ Key HTML concepts demonstrated in these projects:
 8. Form validation attributes
 9. HTML entities and special characters
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are what make the open-source community such an amazing place to learn and create. Any contributions you make to improve these projects are **greatly appreciated**.
 
@@ -199,17 +199,17 @@ Some ways you could contribute:
 - Fix HTML validation issues
 - Enhance documentation
 
-## 📄 License
+## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-## 📫 Contact
+## Contact
 
 Your Name - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
 
 Project Link: [https://github.com/yourusername/html-form-projects](https://github.com/yourusername/html-form-projects)
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 * [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [W3Schools](https://www.w3schools.com/html/)
