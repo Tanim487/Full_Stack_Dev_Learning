@@ -2,7 +2,8 @@
 
 <div align="center">
 
-![HTML Forms Logo](https://via.placeholder.com/150)
+<img src="https://cdn-icons-png.flaticon.com/512/1055/1055646.png" alt="Folder Code Icon" width="60"/>
+
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![made-with-HTML](https://img.shields.io/badge/Made%20with-HTML-1f425f.svg)](https://developer.mozilla.org/en-US/docs/Web/HTML)
