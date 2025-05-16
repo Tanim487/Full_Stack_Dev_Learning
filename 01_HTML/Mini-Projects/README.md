@@ -10,7 +10,7 @@
 
 _A collection of pure HTML form projects demonstrating form creation and styling for beginners_
 
-
+[View Live Demo](#project-screenshots)
 </div>
 
 ## 📋 Table of Contents
@@ -31,7 +31,7 @@ _A collection of pure HTML form projects demonstrating form creation and styling
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 
-## 🚀 About The Projects
+## About The Projects
 
 <div align="center">
   <img src="https://via.placeholder.com/700x400" alt="HTML Forms Preview" width="700"/>
@@ -88,9 +88,9 @@ An interactive HTML guide that demonstrates:
 * Various input types (radio buttons, checkboxes, etc.)
 * Dropdown menus, range inputs, and textareas
 
-  [View Live Demo](https://tanim487.github.io/Full_Stack_Dev_Learning/01_HTML/Mini-Projects/00_HTML_Playground.html)
+  
 
-## 🏁 Getting Started
+## Getting Started
 
 Follow these simple steps to get a local copy up and running.
 
@@ -116,7 +116,7 @@ You only need a modern web browser to view these projects:
 
 Alternatively, you can download the ZIP file from GitHub and extract it to your preferred location.
 
-## 💻 Usage
+## Usage
 
 These projects can be used as:
 - Learning resources for HTML beginners
@@ -146,7 +146,7 @@ These projects can be used as:
    
 **Note:** The forms will not submit data to a real server. The `action` attributes in the forms point to non-existent PHP files (`action.php`, `server.php`). This is for demonstration purposes only.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 html-form-projects/
