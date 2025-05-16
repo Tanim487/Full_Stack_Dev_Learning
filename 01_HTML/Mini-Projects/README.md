@@ -205,13 +205,13 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
->📞 [Call Me on 01729778210](tel:+8801729778210)
+>📞 [Call Me on +880 1729778210](tel:+8801729778210)
 
-Whatsapp - [Message me](https://wa.me/01729778210)
+Whatsapp - [Message me](https://wa.me/+8801729778210)
 
 Social - [Linkedin](https://www.linkedin.com/in/mtanim487/) - [Facebook](https://www.facebook.com/tanim487)
 
-Email - [mail Me on mtanim23487@gmail.com](mailto:mtanim23487@gmail.com?subject=Interested%20in%20Your%20Project&body=Hi%2C%20I%20found%20your%20project%20on%20GitHub%20and%20would%20like%20to%20connect.)
+Email - [mail Me on mtanim23487@gmail.com](mailto:mtanim23487@gmail.com)
 
 
 ## Acknowledgements
