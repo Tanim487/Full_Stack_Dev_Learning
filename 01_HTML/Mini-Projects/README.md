@@ -33,16 +33,11 @@ _A collection of pure HTML form projects demonstrating form creation and styling
 
 ## About The Projects
 
-<div align="center">
-  <img src="https://via.placeholder.com/700x400" alt="HTML Forms Preview" width="700"/>
-</div>
-
-This repository contains a collection of HTML form projects created as learning exercises. The projects demonstrate various techniques for creating forms using only HTML, showcasing different input types, form layouts, and HTML best practices.
+> This repository contains a collection of HTML form projects created as learning exercises. The projects demonstrate various techniques for creating forms using only HTML, showcasing different input types, form layouts, and HTML best practices.
 
 These projects are perfect for:
-* Beginners learning the fundamentals of HTML forms
-* Web development students practicing form creation without CSS/JavaScript
-* Teachers looking for examples to use in web development courses
+* Beginners learning the fundamentals of HTML
+* practicing form creation without CSS/JavaScript
 * Anyone wanting to understand the structure and elements of HTML forms
 
 ### Built With
@@ -56,28 +51,8 @@ These projects were created using:
 
 ### Project Descriptions
 
-#### 1. Basic Registration Form
-A simple registration form that collects basic user information including:
-* Personal details (name, email, phone)
-* Password field
-* Gender selection
-* Date of birth
-* Educational qualification dropdown
-* Hobbies checkboxes
-* Address input
-
-#### 2. Student Registration Form
-A comprehensive student registration form with sections for:
-* Basic Information (name, contact details, academic information)
-* Present and Permanent Address
-* Emergency Contact Information
-* Academic Background
-* Extracurricular Activities
-* Interests and Achievements
-* Scholarship Information
-
-#### 3. HTML Reference Guide
-An interactive HTML guide that demonstrates:
+#### 00. HTML Workplace
+An interactive HTML practice file that demonstrates:
 * Different HTML elements and their usage
 * Inline vs Block elements
 * Semantic vs Non-semantic tags
@@ -87,8 +62,32 @@ An interactive HTML guide that demonstrates:
 * Search functionality implementation
 * Various input types (radio buttons, checkboxes, etc.)
 * Dropdown menus, range inputs, and textareas
+* 
+  >[Go to Repository](https://github.com/Tanim487/Full_Stack_Dev_Learning/tree/main/01_HTML/Mini-Projects/00_HTML_Playground.html)
 
-  
+#### 01. Basic Registration Form
+A simple registration form that collects basic user information including:
+* Personal details (name, email, phone)
+* Password field
+* Gender selection
+* Date of birth
+* Educational qualification dropdown
+* Hobbies checkboxes
+* Address input
+* [Go to Repository](https://github.com/Tanim487/Full_Stack_Dev_Learning/tree/main/01_HTML/Mini-Projects/01_Basic_Registration_Form)
+
+#### 02. Student Registration Form
+A comprehensive student registration form with sections for:
+* Basic Information (name, contact details, academic information)
+* Present and Permanent Address
+* Emergency Contact Information
+* Academic Background
+* Extracurricular Activities
+* Interests and Achievements
+* Scholarship Information
+* [Go to Repository](https://github.com/Tanim487/Full_Stack_Dev_Learning/tree/main/01_HTML/Mini-Projects/01_Student_Registration_Form)
+
+
 
 ## Getting Started
 
