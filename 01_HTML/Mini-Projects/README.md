@@ -149,15 +149,15 @@ These projects can be used as:
 ## Project Structure
 
 ```
-html-form-projects/
-├── HTMLRegistrationForm.html   # Basic registration form
-├── StudentForm.html            # Comprehensive student registration form
-├── What&How_HTML.html          # HTML reference guide
-├── screenshots/                # Screenshots of the projects
-│   ├── registration-form.png
-│   ├── student-form.png
-│   └── html-guide.png
-└── README.md                   # This file
+Mini-Projects/
+├── 00 HTML Playground.html                    # Basic HTML practice file while learning
+├── 01 Basic Registration Form.html            # A basic registration form
+├── 02 Student Registration Form.html          # A complete Student form
+├── screenshots/                               # Screenshots of the projects
+│   ├── html playground.png
+│   ├── basic registration form.png
+│   └── student registration form.png
+└── README.md                                  # This file
 ```
 
 ## Learning Resources
@@ -205,9 +205,14 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
+>📞 [Call Me on 01729778210](tel:+8801729778210)
 
-Project Link: [https://github.com/yourusername/html-form-projects](https://github.com/yourusername/html-form-projects)
+Whatsapp - [Message me](https://wa.me/01729778210)
+
+Social - [Linkedin](https://www.linkedin.com/in/mtanim487/) - mtanim23487@gmail.com
+
+Email - [mail Me on mtanim23487@gmail.com](mailto:mtanim23487@gmail.com?subject=Interested%20in%20Your%20Project&body=Hi%2C%20I%20found%20your%20project%20on%20GitHub%20and%20would%20like%20to%20connect.)
+
 
 ## Acknowledgements
 
