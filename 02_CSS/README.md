@@ -68,6 +68,9 @@ Think of it this way:
 > **Why use CSS?** CSS allows developers to separate content from presentation, making websites more maintainable, accessible, and visually consistent across pages.
 
 ---
+<div align="right">
+  <a href="#the-complete-javascript-beginners-guide">🔺 Back to Top</a>
+</div>
 
 ## 🔗 How to Add CSS
 
