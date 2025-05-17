@@ -1,0 +1,136 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
+*::selection{
+    background-color: aquamarine;
+}
+span, li{
+    color: black;
+}
+
+#idSelector, .classSelector{
+    font-weight: bolder;
+}
+
+pre{
+    color: green;
+}
+
+.sel{
+    color:brown;
+
+}
+.imp{
+    color:rgb(255, 0, 102);
+
+}
+.sel:active{
+    color: black;
+}
+button{
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 10%;
+}
+#hover:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+input[type="checkbox"]:checked + label{
+    background-color: rgb(61, 60, 60);
+    color: rgb(255, 255, 255);
+}
+#active:active{
+    background-color: rgb(214, 212, 215);
+    color: rgb(0, 255, 255);
+}
+.nth-of-type:nth-of-type(2n+1){
+    background-color: rgb(57, 109, 111);
+    color: wheat;
+}
+
+h2,h1::first-letter{
+    color: darkcyan;
+}
+div{
+    display: inline-block;
+    margin: auto;
+    /* display: none; */
+}
+.div1{
+    height: 50px;
+    width: 50px;
+    background-color: aquamarine;
+    border: 1px solid aqua;
+    margin-left: 40px;
+}
+.div2{
+    height: 50px;
+    width: 50px;
+    background-color: aquamarine;
+    border: 1px solid aqua;
+    margin-left: 40px;
+}
+.box{
+    height: 180px;
+    width: 170px;
+    background-color: rgb(157, 228, 238);
+    border: 1px solid rgb(146, 149, 149);
+    padding-top: 15px;
+    margin-left: 40px;
+}
+#red{
+    color: red;
+}
+#green{
+    color: green;
+}
+#blue{
+    color: blue;
+}
+a{
+    color: rgb(51, 255, 0);
+}
+#center{
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    margin: 0 auto;
+    margin-top: 10px;
+    box-shadow: 2px 2px 10px black;
+    transition: 2s 1s;
+}
+#center:hover{
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 50%;
+    transform: scale(1.5);
+}
+
+.card{
+    height: 320px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: bisque;
+    box-shadow: -2px 2px 5px black;
+}
+
+img{
+    background-color: black;
+    width: 100%;
+    border-radius: 5px;
+}
+.about{
+    padding-left: 7px;
+}
+
+.card:hover{
+    box-shadow: -20px 20px 40px black;
+    background-color: rgb(141, 234, 234);
+    transform: translateY(-5px);
+    transition: .5s;
+}

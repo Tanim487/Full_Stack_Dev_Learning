@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS workplace while learning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 align="center">Center the div</h1>
+        <div id="center"></div>
+        <p align="center">here we use <b class="sel">[ margin: 0 auto; ]</b> <span class="imp">but it works only for <b class="sel">BLOCK</b> elements</span></p>
+       
+    <h1>Some basic CSS property</h1>
+    <ul>
+        <li>color (name/RGB/Hex)</li>
+        <li>background-color (name/RGB/Hex)</li>
+        <li>text-align</li>
+        <li>font-weight</li>
+        <li>line-hight</li>
+        <li>font-family</li>
+        <li>max-width</li>
+        <li>min-width</li>
+    </ul>
+    <a href="https://www.w3schools.com/cssref/index.php">To explore more about CSS property click here</a>
+    <h1>Selectors</h1>
+        <p>Types of Selectors</p>
+        <ul>
+            <li><b class="sel">Universal Selector :</b> * (Asterisk)</li>
+            <li><b class="sel">Element Selector :</b> <span>All tags in HTML</span> (eg: h1,h6,p,span,div etc.)</li>
+            <span>We use <b>comma (,) sign</b> to apply same style in multiple selectors (eg: p,h1{....} )</span>
+            <li id="idSelector"><b class="sel">ID Selector :</b> eg: #id_name</li>
+            <li class="classSelector"><b class="sel">Class selector:</b> eg: .class_name </li>
+            <li><b class="sel">Attribute Selector :</b> <b>tag[attr="value"] </b>eg: input[type="password"]{.....} or input[type="radio"]{....} </br>here  we can select elements based on the presence or value of a given Attribute </li>
+        
+        <h3>Practice Question</h3>
+        <p>Set the color for paragraph inside divs with the id "myId" to green</p>
+        <h3>Solve:</h3>
+        <pre>
+            #myId p{color: green;}
+        </pre> 
+            <li><b class="sel">Descendent Selector :</b> We use <b>whitespace sign</b> eg: div p{...} (selected every p inside every div )</li>
+            <li><h3>Combinator: <span>Combining multiple selectors</span></h3>
+                <p>types of Combinator</p>
+            <ul>
+                
+                <li><b class="sel">Adjecent sibling Combinator :</b> We use <b>+ sign</b> eg: p + h3 (here p and h3 are in the equal level or we can say they are siblings)</li>
+                <li><b class="sel">Child Combinator :</b> we use <b> > sign</b> eg: p > h3 (here h3 is just under por we can say h3 is the child of p)</li>
+            </ul>
+            </li>
+        </ul>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors">To explore Selectors click here</a><br>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator">To explore Combinators click here</a>
+        
+        
+        <h1>Pseudo Class</h1>
+        <p>lets see some major pseudo class,</p>
+        <ul>
+            <li><b class="sel">:hover</b>
+            <button id="hover">hover</button></li>
+            <li><b class="sel">:active</b> 
+            <button id="active">active</button></li>
+            <li><b class="sel">:checked</b><br>
+            <input type="checkbox" id="School"><label for="School">School</label><br>
+            <input type="checkbox" id="College"><label for="College">College</label> <br>
+            <input type="checkbox" id="University"><label for="University">University</label> <br>
+        </li>
+            <li><b class="sel">:nth-of-type</b>
+            <button class="nth-of-type">1</button>
+            <button class="nth-of-type">2</button>
+            <button class="nth-of-type">3</button>
+            <button class="nth-of-type">4</button>
+            <button class="nth-of-type">5</button>
+            <button class="nth-of-type">6</button>
+            <button class="nth-of-type">7</button>
+            <button class="nth-of-type">8</button>
+            <button class="nth-of-type">9</button>
+            <button class="nth-of-type">10</button></li>
+        </ul>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes">To explore other Pseudo-classes click here</a>
+
+        <h1>Pseudo elements</h1>
+        <p>lets see some major pseudo class,</p>
+        <ul>
+            <li><b class="sel">::first-letter :</b> Can change the style of the 1st letter</li>
+            <li><b class="sel">::first-line :</b> Can change the style of the 1st Line</li>
+            <li><b class="sel">::selection :</b> Can change the style of the selected area</li>
+        </ul>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements">To explore other Pseudo-elements click here</a>
+
+        <h1>Spacificity calculation</h1>
+        <b>Element < class < id</b><br>
+        <span>elements(included Pseudo-elements) = 1</span> <br>
+        <span>class (included Pseudo-classes)= 10</span> <br>
+        <span>id = 100</span><br>
+        <span>For example: </span><br>
+        <pre>
+            div .greetDiv .greet{ color : green}; <b>0 2 1</b>
+            .greetDiv p .greet{ color: blue}; <b>0 2 1</b>
+            .greetDiv .greet{ color: red}; <b>0 2 0</b>
+            <span>higher spacificity = higher priority.... and if spacificity same we prioritize the last one</span>
+        </pre> 
+        <b>So the color will be blue</b>
+        <p>NB: Inline style is more specific then id</p>
+        <p>So, we can say <b>[ inline > id > class > elements ]</b></p>
+        <h1>!important </h1>
+        <p>To show the most specific thing in Document</p>
+        <pre>
+            For Example:
+            p{
+                color: red; !important
+            }
+            important is like constant . We can't change its CSS property further.
+        </pre>
+        <h1>Inheritance</h1>
+        <p>Every elements try to inherit parent's CSS property. If we give any style to an element that style will be inherited by their child, grand-child and further generation. </p>
+        <h4 class="sel">Exception: input & button</h4>
+        <p>So, in CSS we have to do the Inheritance manually,<b> [ input button {background-color: inherit}; ]</b></p>
+
+        <h1>Box Model</h1>
+        <ul>
+            <li>height</li>
+            <li>width</li>
+            <li>border [width | style |color ]
+                <ul>
+                    <li>border-width</li>
+                    <li>border-style</li>
+                    <li>border-color</li>
+                    <li><b class="sel">border-radius</b></li>
+                    <li><b class="sel">also border-(left/right/top/bottom)</b></li>
+                </ul>
+            </li>
+            <li>padding <br>
+                <b class="sel">padding Shorthand</b>
+                <ul>
+                    <li>all 4 sides</li>
+                    <li>top & bottom <b class="sel">|</b> left & right</li>
+                    <li>top <b class="sel">|</b> left & right <b class="sel">|</b> bottom</li>
+                    <li>top <b class="sel">|</b> right <b class="sel">|</b> bottom <b class="sel">|</b> left <b class="sel">(clockwise)</b></li>
+                    <li><b class="sel">for inline element it works only for left and right</b></li>
+                </ul>
+            </li>
+            <li>margin <br>
+                <b class="sel">margin Shorthand</b>
+                <ul>
+                    <li>all 4 sides</li>
+                    <li>top & bottom <b class="sel">|</b> left & right</li>
+                    <li>top <b class="sel">|</b> left & right <b class="sel">|</b> bottom</li>
+                    <li>top <b class="sel">|</b> right <b class="sel">|</b> bottom <b class="sel">|</b> left <b class="sel">(clockwise)</b></li>
+                    <li><b class="sel">for inline element it works only for left and right</b></li>
+                </ul>
+            </li>
+        </ul>
+
+        <h1>Display</h1>
+        <p>it sets whether an element is treated as a block or inline element and the layout used for its children</p>
+        <ul>
+            <li>inline : it converts the block element into inline</li>
+            <li>block : it converts the inline element into block</li>
+            <li>inline-block : CSS style will be applied for block element but it behaves like inline <b class="sel">[ used for creating div card ]</b></li>
+            <li>none : it hides the element</li>
+        </ul>
+        <div>
+            <div class="div1">1</div>
+            <div class="div1">2</div>
+            <div class="div1">3</div>
+            <div class="div1">4</div>
+            <div class="div2">5</div>
+            <div class="div2">6</div>
+            <div class="div2">7</div>
+        </div>
+        <h1>Units in CSS</h1>
+        <ul>
+        <div class="box">
+            <ul><b class="sel">Absolute</b> <br>
+                <li><b class="imp">px</b></li>
+                <li>pt</li>
+                <li>pc</li>
+                <li>cm</li>
+                <li>mm</li>
+                <li>in</li>
+            </ul>
+        </div>
+        <div class="box">
+            <ul><b class="sel">Relative</b><br>
+                <li><b class="imp">%</b></li>
+                <li><b class="imp">em </b></li>
+                <li><b class="imp">rem </b></li>
+                <li>ch</li>
+                <li>vh</li>
+                <li>vw</li>
+                <li>and many</li>
+            </ul>
+        </div><br>
+        <b class="sel">(em unit changes according to its parent's size )</b> <br>
+        <b class="sel">(rem unit changes according to its root's size )</b>
+        </ul>
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units">to explore more about Units click me</a>
+
+        <h1>Alpha and Opacity</h1>
+        <h2 class="sel">alpha</h2>
+        <p><b class="imp">rgba = red green blue alpha</b></p>
+        <p>Here alpha is the opacity of the color</p>
+        <p><span>For example</span></p>
+        <p>In rgba [ background-color : rgba(<b id="red">234</b><b id="green"> 188</b> <b id="blue">104</b> <b><span>0.8</span></b>) ; ] here range of alpha = 0 to 1</p>
+        <p>In hex [ background-color : #4Dff00<b><span>a1</span></b> ; ] here range of alpha = 00 to ff</p>
+
+        <h2 class="sel">opacity</h2>
+        <p>Range of opacity = 0 to 1</p>
+
+        <h1>CSS transitions</h1>
+        <p>this allow you to define the transition between two states of an element</p>
+        <b class="sel">transition Shorthand</b>
+        <ul>
+            <li>property name <b class="sel">|</b> duration<b class="sel">|</b> timing-function<b class="sel">|</b> delay</li>
+            <p>Example : [ transition: <u>background-color</u> <u>2s</u> <u>ease-in</u> <u>0.2s</u> ; ]</p>
+        </ul>  
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition">to explore more about transitions click here</a><br>
+        <h1>CSS transform</h1>
+        <p>this alow you to <b class="imp">rotate, scale, skew or translate</b></p>
+        <ul>
+            <li>transform: rotate(50deg); <b class="sel">clockwise</b></li>
+            <li>transform: scale(0.5) / scale(0.5, 1) / scaleX(1.5) / scaleY(1.5); <b class="sel">applicable for both 2D and 3D</b></li>
+            <li>transform: translate(50px, 50px) / translateX(50px) / translateY(50px) ;</li>
+            <li>transform: skew(30deg); <b class="sel">also skew the child items of that element</b></li>
+        </ul>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform">to explore more about transformations click here</a>
+        <h1>Box shadow</h1>
+        <p>it adds a show effect around an element's frame</p>
+        <b class="sel">box-shadow Shorthand</b>
+        <ul>
+            <li>X offset <b class="sel">|</b> Y offset<b class="sel">|</b> shadow radius<b class="sel">|</b> shadow color</li>
+        </ul>
+        <h1>background image</h1>
+        <b class="imp">background-image: url(path of the img);</b>
+        <p>sometimes it may or may not cover the image size with the element size</p>
+        <p>so, we have to use <b class="imp">background-size: </b></p>
+        <ul>
+            <li>contain <b class="sel">repeatedly use the image to cover the element</b></li>
+            <li>cover <b class="sel">cutted out the extra image that needn't to cover the element</b></li>
+            <li>auto <b class="sel">default form</b></li>
+        </ul>
+        <h1>Card hover effect</h1>
+        <div class="card">
+            <img src="images.png" alt="image">
+            <div class="about">
+                <h3>kallu Arjun</h3>
+                <p>Mutual to Everyone</p>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="images.png" alt="image">
+            <div class="about">
+                <h3>Dr. Miya Sharma</h3>
+                <p>Software Downloader</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images.png" alt="image">
+            <div class="about">
+                <h3>Sunny Abraham</h3>
+                <p>Graduate Unemployed</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images.png" alt="image">
+            <div class="about">
+                <h3>Sheikh Jonny</h3>
+                <p>Superstar</p>
+            </div>
+        </div>
+        <h1>Position Property</h1>
+        <p>it sets how an element is positiond in a document</p>
+        <ul>
+            <li>static - it works like default position</li>
+            <li><b class="imp">relative</b> - it translate according to its previous position</li>
+            <li><b class="imp">absolute </b> - it translate according to the whole document</li>
+            <li>fixed</li>
+            <li>sticky</li>
+        </ul>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position">to explore more about positions click here</a>
+
+        <h1>Flexbox</h1>
+        <p>its is a one dimensional layout method for arranging items in rows or columns in 1D form</p>
+        <h2 class="imp">for flex container</h2>
+        <ul>
+            <li><b class="sel">display: flex</b></li>
+            <li><b class="sel">flex-direction: </b>
+                <ul>
+                    <li>row</li>
+                    <li>row-reverse</li>
+                    <li>column</li>
+                    <li>column-reverse</li>
+                </ul><br>
+            </li>
+            <li><b class="sel">justify-content:</b>
+                <ul>
+                    <li>flex-start</li>
+                    <li>flex-end</li>
+                    <li>center</li>
+                    <li>space-between</li>
+                    <li>space-around</li>
+                    <li>space-evenly</li>  
+                </ul><br>
+            </li>
+            <li><b class="sel">flex-wrap:</b>
+                <p>sets whether flex items are <b class="imp">forced onto one line or can wrap</b> onto multipe lines</p>
+                <ul>
+                    <li>nowrap</li>
+                    <li>wrap</li>
+                    <li>wrap-reverse</li>
+                </ul><br>
+            </li>
+            <li><b class="sel">align-items:</b>
+                <p>Distribute our items along the cross size</p>
+                <ul>
+                    <li>flex-start</li>
+                    <li>flex-end</li>
+                    <li>center</li>
+                    <li>baseline - <span class="sel">text on the flex items will be on the same line</span></li>
+                </ul><br>
+            </li>
+            <li><b class="sel">align-content:</b>
+                <p>it sets the distribution of <b class="imp">space between and around</b> content items along a flexbox's cross axis</p>
+                <ul>
+                    <li>flex-start</li>
+                    <li>flex-end</li>
+                    <li>center</li>
+                    <li>space-around</li>
+                    <li>space-between</li>
+                    <li>space-evenly</li>
+                    <li>baseline- <span class="sel">text on the flex items will be on the same line</span></li>
+                </ul><br>
+            </li>
+            
+        </ul>
+    <h2 class="imp">for flex items: </h2>
+            <ul>
+                <li><b class="sel">align-self:</b>
+                    <p>align an item along the <b class="imp">cross axis</b></p>
+                    <ul>
+                        <li>flex-start</li>
+                        <li>flex-end</li>
+                        <li>center</li>
+                        <li>baseline- <span class="sel">text on the flex items will be on the same line</span></li>
+                    </ul>
+                    <b class="imp">align-self has always higher priority then align items</b>
+                    so, <b class="sel">[ align-self > align-items ]</b>
+                    <br><br>
+                </li>
+            </ul>
+                <h3 class="imp">Flex Sizing</h3>
+                    <ul>
+                        <li><b class="sel">flex-basis:</b> px - <span class="sel">it sets the initial main size of a flex item</span> </li>
+                        <li><b class="sel">flex-grow:</b> ( default 1) - it specifies how much of the flex container's remaining space should be assigned to the flex item's main size</li>
+                        <li><b class="sel">flex-shrink:</b> ( default 1) - it sets the flex shrink factor of a flex item</li>
+                    </ul>
+                    <h2>Flex sizing Shorthand</h2>
+        <ul>
+            <li>flex-grow <b class="sel">|</b> flex-shrink<b class="sel">|</b> flex-basis</li>
+            <p>example: <b class="imp">[ flex: 2 2 100px; ]</b></p>
+            <li>flex-grow <b class="sel">|</b> flex-basis</li>
+            <p>example: <b class="imp">[ flex: 2 100px; ]</b></p>
+            <li>flex-grow (unitless)</li>
+            <p>example: <b class="imp">[ flex: 2; ]</b></p>
+            <li>flex-basis</li>
+            <p>example: <b class="imp">[ flex: 100px; ]</b></p>
+        </ul>
+        <h1>CSS Grid</h1>
+        <p>setting a container's display to grid will make all children grid items in 2D form</p>
+        <h2 class="sel">Grid Model</h2>
+        <ul>
+            <li>Grid lines (rows / columns)</li>
+            <li>Grid Cell (each items) </li>
+            <li>Grid Track (total cells in rows / columns)</li>
+        </ul>
+        <h2 class="imp">for grid container</h2>
+        <ul>
+            <li><b class="sel">display: grid</b></li>
+            <li><b class="sel">Grid Template </b>
+                <ul>
+                    <li><b class="imp">grid-template-rows:</b>
+                        <ul>
+                            <li>auto auto auto....(n-times);</li>
+                            <li>track1Size track2Size track3Size track4Size.....tracknSize;</li>
+                            <li>repeat(numberOfTracks, <span class="sel">1fr</span>)</li>
+                        </ul>
+                    <li><b class="imp">grid-template-columns:</b>auto auto auto....(n-times) / track1Size track2Size track3Size track4Size.....tracknSize;</li>
+                    <ul>
+                        <li>auto auto auto....(n-times);</li>
+                        <li>track1Size track2Size track3Size track4Size.....tracknSize;</li>
+                        <li>repeat(numberOfTracks, <span class="sel">1fr</span>)</li>
+                    </ul>
+                </ul>
+            </li>
+            <li><b class="sel">Grid Gaps </b>
+                <ul>
+                    <li><b class="imp">row-gap: </b>px</li>
+                    <li><b class="imp">column-gap: </b>px</li>
+                    <li><b class="imp">grid-gap:</b> row-gap <b class="sel">|</b> column-gap</li>
+                </ul>
+            </li>
+            <li><b class="sel">Grid Rows </b>
+                <ul>
+                    <li><b class="imp">grid-row-start: </b>line_number</li>
+                    <li><b class="imp">grid-row-end: </b>px</li>
+                    <li><b class="imp">grid-row:</b>
+                        <ul>
+                            <li>start_row / end_row</li>
+                            <li>start_row / <b class="sel">span</b> number_of_cells</li>
+                        </ul>
+                    
+                </ul>
+            </li>
+            <li><b class="sel">Grid Columns </b>
+                <ul>
+                    <li><b class="imp">grid-column-start: </b>line_number</li>
+                    <li><b class="imp">grid-column-end: </b>px</li>
+                    <li><b class="imp">grid-column:</b>
+                        <ul>
+                            <li>start_col / end_col</li>
+                            <li>start_col / <b class="sel">span</b> number_of_cells</li>
+                        </ul>
+                    
+                </ul>
+            </li>
+            <li><b class="sel">Grid Properties </b>
+                <ul>
+                    <li><b class="imp">justify-items: (for container)</b>
+                        <ul>
+                            <li>start</li>
+                            <li>center</li>
+                            <li>end</li>
+                        </ul>
+                    </li>
+                    <li><b class="imp">justify-self : (for item)</b></li>
+                    <li><b class="imp">align-items:</b></li>
+                    <li><b class="imp">align-self:</b></li> 
+                    <p class="sel">justify is for <b>horizontal</b> and align is for <b>vertical</b> alignment</p>
+                    <span>But, for both vertical and horizontal,</span>
+                    <li><b class="imp">place-items:</b></li> 
+                    <li><b class="imp">place-self:</b></li> 
+                </ul>
+            </li>
+        </ul>
+        <h1>CSS Animation</h1>
+        <p class="sel">Basic Structure of Animation Bluprint,</p>
+        <pre>
+            @keyframes animation_name{
+                from{...}
+                to{...}
+            }
+            or
+            @keyframes animation_name{
+                0%{...}
+                50%{...}
+                100%{...}
+            }
+        </pre>
+        <ul>
+            <li><b class="imp">animation-name</b></li>
+            <li><b class="imp">animation-duration</b></li>
+            <li><b class="imp">animation-timing-function</b></li>
+            <li><b class="imp">animation-delay</b></li>
+            <li><b class="imp">animation-iteration-count</b></li>
+            <li><b class="imp">animation-direction</b></li>
+        </ul>
+        <h2>Animation Shorthand</h2>
+        <ul>
+            <li><b class="imp">animation: </b>animation_name<b class="sel">|</b> duration<b class="sel">|</b> timing-function<b class="sel">|</b> delay<b class="sel">|</b> iteration-count<b class="sel">|</b> direction</li>
+        </ul>
+        <h1>Media Queries</h1>
+        <p>Help to create a <b class="imp">responsive</b> website</p>
+        <b class="sel">media features - width</b>(of viewport)
+        <pre>
+            @media(width: px){ 
+                div{
+                    ...
+                }
+            }
+            or
+            @media(orientation: portrait / landscape){
+                div{
+                    ...
+                }
+            }
+        </pre>
+
+        <h1>Z index</h1>
+        <p>it decides the stack level of element</p>
+        <p>overlaping elements with a larger z-index cover those with a smaller one</p>
+        <ul>
+            <li><b class="imp">z-index:</b> 1/2/3/....n</li>
+        </ul>
+        <h1>Color Theory</h1>
+        <a href="https://99designs.com/blog/tips/the-7-step-guide-to-understanding-color-theory/">Guidance</a><br>
+        <a href="https://www.canva.com/colors/color-wheel/">color wheel</a>
+        <h1>Typography</h1>
+        <b class="sel">Professional font:</b>
+        <ul>
+            <li>times-new-roman</li>
+            <li>calibri</li>
+            <li>roboto</li>
+        </ul>
+        <h1>Fonts</h1>
+        <a href="https://fonts.google.com/">Google fonts</a>
+        <h1>Icons</h1>
+        <ul>
+            <li><a href="https://fonts.google.com/icons">google icons</a></li>
+            <li><a href="https://fontawesome.com/icons">font_awsome</a></li>
+            to use fontawsome icons we have to include a link from,
+            <a href="https://cdnjs.com/libraries/font-awesome">cdnjs/libraries</a>
+        </ul>
+        
+
+</body>
+</html> 
