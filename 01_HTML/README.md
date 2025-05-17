@@ -1,5 +1,5 @@
 # Essential HTML Guide for Beginners
-
+                                                                           – My Personal Learning Journal
 <div align="center">
   
 ![HTML5 Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/64px-HTML5_logo_and_wordmark.svg.png)
