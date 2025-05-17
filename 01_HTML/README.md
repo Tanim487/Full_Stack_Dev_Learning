@@ -425,17 +425,18 @@ Emmet is a plugin for many code editors that helps write HTML quickly:
 5. Practice by building small projects
 
 <div align="center">
-  
----
-
-## Check Out My Mini Project!
-> 🔗 [👉 Visit the Project Repository Here!](https://github.com/Tanim487/Full_Stack_Dev_Learning/tree/main/01_HTML/Mini-Projects)  
-
-**Happy Coding! 🎉**
----
 
 </div>
-<div align="center">
+<div align="right">
   <a href="#essential-html-guide-for-beginners">🔺 Back to Top</a>
+  <br><br><br
+</div>
+<div align="center">
+  
+  ***"HTML: The foundation of every web page"***
+
+  [![HTML](https://img.shields.io/badge/Markup%20Language-HTML5-E34F26.svg?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+  [![Web Structure](https://img.shields.io/badge/For-Web%20Structure-blue.svg)](https://en.wikipedia.org/wiki/HTML)
+
 </div>
 
