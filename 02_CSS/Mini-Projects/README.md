@@ -57,16 +57,31 @@ These projects were created using:
 
 <div align="center" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
 
-|  Side Navigation Bar  | Pet Adoption Site (Responsive) |
-|-------------------------|--------------------------|
-| ![Side Navigation](https://raw.githubusercontent.com/Tanim487/Full_Stack_Dev_Learning/main/02_CSS/Mini-Projects/screenshots/00.png) | ![Pet Adoption](https://raw.githubusercontent.com/Tanim487/Full_Stack_Dev_Learning/main/02_CSS/Mini-Projects/screenshots/01.png) |
-| [View Live Demo](https://tanim487.github.io/Full_Stack_Dev_Learning/02_CSS/Mini-Projects/00_Side_Navigation_bar/index.html) | [View Live Demo](https://tanim487.github.io/Full_Stack_Dev_Learning/02_CSS/Mini-Projects/01_Pet_Adoption_site/index.html) |
+| CSS workplace |  Side Navigation Bar  | Pet Adoption Site |
+|-------------------------|-------------------------|--------------------------|
+| ![CSS workplace](https://raw.githubusercontent.com/Tanim487/Full_Stack_Dev_Learning/main/02_CSS/Mini-Projects/screenshots/00.png) | ![Side Navigation](https://raw.githubusercontent.com/Tanim487/Full_Stack_Dev_Learning/main/02_CSS/Mini-Projects/screenshots/01.png) | ![Pet Adoption](https://raw.githubusercontent.com/Tanim487/Full_Stack_Dev_Learning/main/02_CSS/Mini-Projects/screenshots/02.png) |
+| [View Live Demo](https://tanim487.github.io/Full_Stack_Dev_Learning/02_CSS/Mini-Projects/00_CSS_Playground/index.html) | [View Live Demo](https://tanim487.github.io/Full_Stack_Dev_Learning/02_CSS/Mini-Projects/01_Side_Navigation_bar/index.html) | [View Live Demo](https://tanim487.github.io/Full_Stack_Dev_Learning/02_CSS/Mini-Projects/02_Pet_Adoption_site/index.html) |
 
 </div>
 
 ### Project Descriptions
 
-#### 00. Side Navigation Bar
+#### 00. CSS Workplace
+An interactive CSS practice project that demonstrates:
+* External, internal, and inline CSS usage
+* Box model and element positioning
+* Sidebar navigation layout
+* Hover effects and transitions
+* Font Awesome integration
+* Responsive design with viewport-relative units
+* `:hover`, `:checked`, and other pseudo-classes
+* Styling lists, buttons, and icons
+* Sidebar toggle using checkbox hack
+* Flexbox-based footer with brand icons
+* [Go to Repository](https://github.com/Tanim487/Full_Stack_Dev_Learning/tree/main/02_CSS/Mini-Projects/00_CSS_Playground)
+
+
+#### 01. Side Navigation Bar
 An interactive sidebar navigation implementation with:
 * Animated side drawer functionality
 * Icon integration with Font Awesome
@@ -74,17 +89,17 @@ An interactive sidebar navigation implementation with:
 * Mobile-friendly design
 * Social media footer icons
 * Dark theme with transparent background
-* [Go to Repository](https://github.com/Tanim487/Full_Stack_Dev_Learning/tree/main/02_CSS/Mini-Projects/00_Side_Navigation_bar)
+* [Go to Repository](https://github.com/Tanim487/Full_Stack_Dev_Learning/tree/main/02_CSS/Mini-Projects/01_Side_Navigation_bar)
 > Try to preview it with less then 80% zoom
 
-#### 01. Pet Adoption Site
+#### 02. Pet Adoption Site
 A responsive webpage for a pet adoption service featuring:
 * Flexbox-based card layout for displaying pets
 * Responsive design with media queries
 * Simple color scheme with accent colors
 * Image optimization and styling
 * Typography enhancement
-* [Go to Repository](https://github.com/Tanim487/Full_Stack_Dev_Learning/tree/main/02_CSS/Mini-Projects/01_Pet_Adoption_site)
+* [Go to Repository](https://github.com/Tanim487/Full_Stack_Dev_Learning/tree/main/02_CSS/Mini-Projects/02_Pet_Adoption_site)
 
 
 
@@ -130,11 +145,15 @@ These projects can be used as:
 
 ```
 css-projects/
-├── 00-side-navigation-bar/          # Side navigation implementation
+├── 00-CSS-Playground/               # Basic CSS practice file while learning
 │   ├── index.html
 │   ├── style.css
 │   └── photo.jpg
-├── 01-pet-adoption-site/            # Pet adoption website demo
+├── 01-side-navigation-bar/          # Side navigation implementation
+│   ├── index.html
+│   ├── style.css
+│   └── photo.jpg
+├── 02-pet-adoption-site/            # Pet adoption website demo
 │   ├── index.html
 │   ├── style.css
 │   └── photo.jpg
@@ -215,4 +234,3 @@ Email - [mtanim23487@gmail.com](mailto:mtanim23487@gmail.com)
   <p>If you found these projects helpful, please consider giving a star! ⭐</p>
   <a href="#css-projects-collection">🔺 Back to Top</a>
 </div>
-
