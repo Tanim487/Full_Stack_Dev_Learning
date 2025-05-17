@@ -63,8 +63,8 @@ Think of it this way:
 | <span style="color:#F39C12">Independence</span> | Build websites without depending on frameworks |
 | <span style="color:#8E44AD">Creativity</span> | Express your creative vision through design |
 | <span style="color:#3498DB">Fundamentals</span> | Essential skill for all web development |
-
 </div>
+
 > **Why use CSS?** CSS allows developers to separate content from presentation, making websites more maintainable, accessible, and visually consistent across pages.
 
 ---
