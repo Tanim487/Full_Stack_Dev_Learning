@@ -57,7 +57,7 @@ These projects were created using:
 
 <div align="center" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
 
-|  Side Navigation Bar  | Pet Adoption Site |
+|  Side Navigation Bar  | Pet Adoption Site (Responsive) |
 |-------------------------|--------------------------|
 | ![Side Navigation](https://raw.githubusercontent.com/Tanim487/Full_Stack_Dev_Learning/main/02_CSS/Mini-Projects/screenshots/00.png) | ![Pet Adoption](https://raw.githubusercontent.com/Tanim487/Full_Stack_Dev_Learning/main/02_CSS/Mini-Projects/screenshots/01.png) |
 | [View Live Demo](https://tanim487.github.io/Full_Stack_Dev_Learning/02_CSS/Mini-Projects/00_Side_Navigation_bar/index.html) | [View Live Demo](https://tanim487.github.io/Full_Stack_Dev_Learning/02_CSS/Mini-Projects/01_Pet_Adoption_site/index.html) |
