@@ -21,7 +21,7 @@ a{
 }
 
 body{
-    background-image: url(photo.jpg);
+    background-image: url(Camera_BG.jpg);
     height: 100vh;
     background-size: cover;
 }
