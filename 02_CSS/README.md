@@ -54,6 +54,7 @@ Think of it this way:
 - <span style="color:#9B59B6">**JavaScript**</span> is like the muscles that make it move and interact
 
 ### Why Learn CSS?
+<div align="center">
 
 | Reason | Description |
 |---------|-------------|
@@ -63,6 +64,7 @@ Think of it this way:
 | <span style="color:#8E44AD">Creativity</span> | Express your creative vision through design |
 | <span style="color:#3498DB">Fundamentals</span> | Essential skill for all web development |
 
+</div>
 > **Why use CSS?** CSS allows developers to separate content from presentation, making websites more maintainable, accessible, and visually consistent across pages.
 
 ---
@@ -120,12 +122,16 @@ p {
 - Improves page loading through caching
 
 ---
+<div align="right">
+  <a href="#the-complete-javascript-beginners-guide">🔺 Back to Top</a>
+</div>
 
 ## 🎯 Basic CSS Properties
 
 Let's explore some essential CSS properties that you'll use all the time:
 
 ### Text Properties
+<div align="center">
 
 | Property | Description | Example |
 |----------|-------------|---------|
@@ -135,6 +141,8 @@ Let's explore some essential CSS properties that you'll use all the time:
 | <span style="color:#F39C12">`font-weight`</span> | Sets thickness of text | `font-weight: bold;` |
 | <span style="color:#2ECC71">`text-align`</span> | Aligns text horizontally | `text-align: center;` |
 | <span style="color:#E74C3C">`line-height`</span> | Sets space between lines | `line-height: 1.5;` |
+
+</div>
 
 ### Example
 
@@ -150,6 +158,7 @@ p {
 ```
 
 ### Background Properties
+<div align="center">
 
 | Property | Description | Example |
 |----------|-------------|---------|
@@ -157,14 +166,19 @@ p {
 | <span style="color:#E67E22">`background-image`</span> | Sets background image | `background-image: url('image.jpg');` |
 | <span style="color:#9B59B6">`background-size`</span> | Sets size of background image | `background-size: cover;` |
 | <span style="color:#2ECC71">`background-repeat`</span> | Controls image repetition | `background-repeat: no-repeat;` |
+</div>
 
 ---
+<div align="right">
+  <a href="#the-complete-javascript-beginners-guide">🔺 Back to Top</a>
+</div>
 
 ## 🔍 CSS Selectors
 
 Selectors are patterns used to select and style HTML elements. Mastering selectors is key to effective CSS!
 
 ### Basic Selectors
+<div align="center">
 
 | Selector | Targets | Example | Description |
 |----------|---------|---------|-------------|
@@ -173,8 +187,10 @@ Selectors are patterns used to select and style HTML elements. Mastering selecto
 | <span style="color:#9B59B6">**Class**</span> | `.class` | `.note { color: red; }` | Selects elements with class="note" |
 | <span style="color:#F39C12">**ID**</span> | `#id` | `#header { height: 80px; }` | Selects element with id="header" |
 | <span style="color:#2ECC71">**Attribute**</span> | `[attr]` | `input[type="text"] { border: 1px solid gray; }` | Selects inputs with type="text" |
+</div>
 
 ### Combinators
+<div align="center">
 
 | Combinator | Example | Description |
 |------------|---------|-------------|
@@ -182,6 +198,7 @@ Selectors are patterns used to select and style HTML elements. Mastering selecto
 | <span style="color:#E67E22">**Child**</span> | `div > p` | Selects all `<p>` that are direct children of `<div>` |
 | <span style="color:#9B59B6">**Adjacent Sibling**</span> | `h1 + p` | Selects `<p>` immediately after `<h1>` |
 | <span style="color:#F39C12">**General Sibling**</span> | `h1 ~ p` | Selects all `<p>` that are siblings after `<h1>` |
+</div>
 
 ### Specificity
 
@@ -195,6 +212,9 @@ When multiple selectors apply to the same element, CSS needs to decide which sty
 5. `!important` - Overrides everything
 
 ---
+<div align="right">
+  <a href="#the-complete-javascript-beginners-guide">🔺 Back to Top</a>
+</div>
 
 ## 📦 CSS Box Model
 
@@ -225,12 +245,16 @@ By default, `width` and `height` only set the content box size. To include paddi
 ```
 
 ---
+<div align="right">
+  <a href="#the-complete-javascript-beginners-guide">🔺 Back to Top</a>
+</div>
 
 ## 🎭 Display Property
 
 The `display` property determines how an element is treated and laid out.
 
 ### Common Display Values:
+<div align="center">
 
 | Value | Description | Example Use |
 |-------|-------------|-------------|
@@ -240,6 +264,7 @@ The `display` property determines how an element is treated and laid out.
 | <span style="color:#F39C12">`none`</span> | Removes element from the document flow | Hide elements without deleting |
 | <span style="color:#2ECC71">`flex`</span> | Creates a flex container | Modern layouts |
 | <span style="color:#E74C3C">`grid`</span> | Creates a grid container | Complex 2D layouts |
+</div>
 
 ### Key differences to remember:
 
@@ -264,11 +289,15 @@ The `display` property determines how an element is treated and laid out.
 ---
 
 ## 📐 CSS Units
+<div align="right">
+  <a href="#the-complete-javascript-beginners-guide">🔺 Back to Top</a>
+</div>
 
 CSS provides various units for specifying sizes. Choosing the right unit is crucial for responsive design!
 
 ### Absolute Units (Fixed Size)
 These units remain the same size regardless of device or parent element:
+<div align="center">
 
 | Unit | Description | Best Use |
 |------|-------------|----------|
@@ -276,9 +305,11 @@ These units remain the same size regardless of device or parent element:
 | <span style="color:#E67E22">`pt`</span> | Points (1/72 inch) | Print styles |
 | <span style="color:#9B59B6">`cm`, `mm`</span> | Centimeters, millimeters | Print styles |
 | <span style="color:#F39C12">`in`</span> | Inches | Print styles |
+</div>
 
 ### Relative Units (Flexible Size)
 These units scale based on something else:
+<div align="center">
 
 | Unit | Relative To | Best Use |
 |------|-------------|----------|
@@ -287,6 +318,7 @@ These units scale based on something else:
 | <span style="color:#9B59B6">`rem`</span> | Font size of root element | Consistent spacing regardless of nesting |
 | <span style="color:#2ECC71">`vw`</span> | 1% of viewport width | Full-width elements |
 | <span style="color:#E74C3C">`vh`</span> | 1% of viewport height | Full-height elements |
+</div>
 
 ---
 
@@ -341,6 +373,9 @@ Media queries allow you to apply different styles based on device characteristic
 </details>
 
 ---
+<div align="right">
+  <a href="#the-complete-javascript-beginners-guide">🔺 Back to Top</a>
+</div>
 
 ## 🎯 Centering in CSS
 
@@ -377,6 +412,9 @@ Centering elements is a common task that can be achieved in multiple ways:
 ```
 
 ---
+<div align="right">
+  <a href="#the-complete-javascript-beginners-guide">🔺 Back to Top</a>
+</div>
 
 ## 🌈 Colors and Backgrounds
 
@@ -429,6 +467,9 @@ Linear gradients:
 ```
 
 ---
+<div align="right">
+  <a href="#the-complete-javascript-beginners-guide">🔺 Back to Top</a>
+</div>
 
 ## 🔄 Responsive Design
 
@@ -469,6 +510,9 @@ img {
 This simple rule makes all images scale down if their container is smaller than their natural size, while never scaling up larger than their original size.
 
 ---
+<div align="right">
+  <a href="#the-complete-javascript-beginners-guide">🔺 Back to Top</a>
+</div>
 
 ## 🌟 Advanced CSS Features
 
@@ -547,6 +591,9 @@ For more complex animations, use `@keyframes`:
 ```
 
 ---
+<div align="right">
+  <a href="#the-complete-javascript-beginners-guide">🔺 Back to Top</a>
+</div>
 
 ## 📏 Layout Techniques
 
@@ -566,6 +613,7 @@ Flexbox is a one-dimensional layout method for laying out items in rows or colum
 ```
 
 **Key Flexbox container properties:**
+<div align="center">
 
 | Property | Purpose | Common Values |
 |----------|---------|---------------|
@@ -574,6 +622,7 @@ Flexbox is a one-dimensional layout method for laying out items in rows or colum
 | <span style="color:#9B59B6">`align-items`</span> | Align along cross axis | `flex-start`, `flex-end`, `center`, `stretch` |
 | <span style="color:#F39C12">`flex-wrap`</span> | Allow items to wrap | `nowrap`, `wrap`, `wrap-reverse` |
 | <span style="color:#2ECC71">`gap`</span> | Space between items | Any length unit |
+</div>
 
 ### CSS Grid
 
@@ -589,6 +638,9 @@ Grid is a two-dimensional layout system, perfect for complex layouts:
 ```
 
 ---
+<div align="right">
+  <a href="#the-complete-javascript-beginners-guide">🔺 Back to Top</a>
+</div>
 
 ## 🏆 Best Practices
 
@@ -638,6 +690,9 @@ Grid is a two-dimensional layout system, perfect for complex layouts:
    ```
 
 ---
+<div align="right">
+  <a href="#the-complete-javascript-beginners-guide">🔺 Back to Top</a>
+</div>
 
 ## 📚 Resources
 
@@ -657,11 +712,12 @@ Grid is a two-dimensional layout system, perfect for complex layouts:
 - [Awwwards](https://www.awwwards.com/)
 
 <div align="center">
-  
+  <br><br>
+
   ***"CSS: Making the web beautiful one style at a time"***
-  
-  [![CSS](https://img.shields.io/badge/Made%20with-CSS-1572B6.svg?style=flat&logo=css3)](https://www.w3.org/Style/CSS/)
+  <br>
+
+  [![CSS](https://img.shields.io/badge/Style%20Sheet%20Language-CSS-1572B6.svg?style=flat&logo=css3)](https://www.w3.org/Style/CSS/)
   [![Web Design](https://img.shields.io/badge/For-Web%20Design-orange.svg)](https://en.wikipedia.org/wiki/Web_design)
 
 </div>
-
