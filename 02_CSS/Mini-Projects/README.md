@@ -191,9 +191,13 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [Your Email](mailto:your.email@example.com)
+>📞 [Call Me on +880 1729778210](tel:+8801729778210)
 
-Project Link: [https://github.com/yourusername/css-projects](https://github.com/yourusername/css-projects)
+Whatsapp - [Message me](https://wa.me/+8801729778210)
+
+Social - [Linkedin](https://www.linkedin.com/in/mtanim487/) - [Facebook](https://www.facebook.com/tanim487)
+
+Email - [mtanim23487@gmail.com](mailto:mtanim23487@gmail.com)
 
 ## Acknowledgements
 
