@@ -1,4 +1,4 @@
-# 🎨 The Ultimate CSS Guide for Complete Beginners
+# 🎨 CSS Essentials: A Structured Learning Path
 
 <div align="center">
   
@@ -63,14 +63,11 @@ Think of it this way:
 | <span style="color:#F39C12">Independence</span> | Build websites without depending on frameworks |
 | <span style="color:#8E44AD">Creativity</span> | Express your creative vision through design |
 | <span style="color:#3498DB">Fundamentals</span> | Essential skill for all web development |
-</div>
 
+</div>
 > **Why use CSS?** CSS allows developers to separate content from presentation, making websites more maintainable, accessible, and visually consistent across pages.
 
 ---
-<div align="right">
-  <a href="#the-complete-javascript-beginners-guide">🔺 Back to Top</a>
-</div>
 
 ## 🔗 How to Add CSS
 
@@ -126,7 +123,7 @@ p {
 
 ---
 <div align="right">
-  <a href="#the-complete-javascript-beginners-guide">🔺 Back to Top</a>
+  <a href="#-css-essentials:-a-structured-learning-path">🔺 Back to Top</a>
 </div>
 
 ## 🎯 Basic CSS Properties
@@ -173,7 +170,7 @@ p {
 
 ---
 <div align="right">
-  <a href="#the-complete-javascript-beginners-guide">🔺 Back to Top</a>
+  <a href="#-css-essentials:-a-structured-learning-path">🔺 Back to Top</a>
 </div>
 
 ## 🔍 CSS Selectors
@@ -216,7 +213,7 @@ When multiple selectors apply to the same element, CSS needs to decide which sty
 
 ---
 <div align="right">
-  <a href="#the-complete-javascript-beginners-guide">🔺 Back to Top</a>
+  <a href="#-css-essentials:-a-structured-learning-path">🔺 Back to Top</a>
 </div>
 
 ## 📦 CSS Box Model
@@ -249,7 +246,7 @@ By default, `width` and `height` only set the content box size. To include paddi
 
 ---
 <div align="right">
-  <a href="#the-complete-javascript-beginners-guide">🔺 Back to Top</a>
+  <a href="#-css-essentials:-a-structured-learning-path">🔺 Back to Top</a>
 </div>
 
 ## 🎭 Display Property
@@ -293,7 +290,7 @@ The `display` property determines how an element is treated and laid out.
 
 ## 📐 CSS Units
 <div align="right">
-  <a href="#the-complete-javascript-beginners-guide">🔺 Back to Top</a>
+  <a href="#-css-essentials:-a-structured-learning-path">🔺 Back to Top</a>
 </div>
 
 CSS provides various units for specifying sizes. Choosing the right unit is crucial for responsive design!
@@ -377,7 +374,7 @@ Media queries allow you to apply different styles based on device characteristic
 
 ---
 <div align="right">
-  <a href="#the-complete-javascript-beginners-guide">🔺 Back to Top</a>
+  <a href="#-css-essentials:-a-structured-learning-path">🔺 Back to Top</a>
 </div>
 
 ## 🎯 Centering in CSS
@@ -416,7 +413,7 @@ Centering elements is a common task that can be achieved in multiple ways:
 
 ---
 <div align="right">
-  <a href="#the-complete-javascript-beginners-guide">🔺 Back to Top</a>
+  <a href="#-css-essentials:-a-structured-learning-path">🔺 Back to Top</a>
 </div>
 
 ## 🌈 Colors and Backgrounds
@@ -471,7 +468,7 @@ Linear gradients:
 
 ---
 <div align="right">
-  <a href="#the-complete-javascript-beginners-guide">🔺 Back to Top</a>
+  <a href="#-css-essentials:-a-structured-learning-path">🔺 Back to Top</a>
 </div>
 
 ## 🔄 Responsive Design
@@ -514,7 +511,7 @@ This simple rule makes all images scale down if their container is smaller than 
 
 ---
 <div align="right">
-  <a href="#the-complete-javascript-beginners-guide">🔺 Back to Top</a>
+  <a href="#-css-essentials:-a-structured-learning-path">🔺 Back to Top</a>
 </div>
 
 ## 🌟 Advanced CSS Features
@@ -595,7 +592,7 @@ For more complex animations, use `@keyframes`:
 
 ---
 <div align="right">
-  <a href="#the-complete-javascript-beginners-guide">🔺 Back to Top</a>
+  <a href="#-css-essentials:-a-structured-learning-path">🔺 Back to Top</a>
 </div>
 
 ## 📏 Layout Techniques
@@ -642,7 +639,7 @@ Grid is a two-dimensional layout system, perfect for complex layouts:
 
 ---
 <div align="right">
-  <a href="#the-complete-javascript-beginners-guide">🔺 Back to Top</a>
+  <a href="#-css-essentials:-a-structured-learning-path">🔺 Back to Top</a>
 </div>
 
 ## 🏆 Best Practices
@@ -694,7 +691,7 @@ Grid is a two-dimensional layout system, perfect for complex layouts:
 
 ---
 <div align="right">
-  <a href="#the-complete-javascript-beginners-guide">🔺 Back to Top</a>
+  <a href="#-css-essentials:-a-structured-learning-path">🔺 Back to Top</a>
 </div>
 
 ## 📚 Resources
