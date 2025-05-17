@@ -334,12 +334,30 @@ npm install <package-name>
 
 **Global Installation**:
 ```bash
-npm install -g <package-name>
+npm install -g nodemon
 ```
-- Installs the package globally (accessible from any directory)
-- Useful for command-line tools
-- Often requires administrator privileges
-- May need to run `npm link <package-name>` after installation
+
+* Installs Nodemon globally on your system.
+* Allows you to run `nodemon` from anywhere in the terminal.
+
+> ⚠️ **Admin Access Required**
+> For global installation, you may need administrative privileges. In windows it usually does not require admin access for global installs but, in MacOS/Linux it may require admin access. 
+
+**If you encounter permission errors, run:**
+
+```bash
+sudo chown -R $USER /usr/local/lib/node_modules
+```
+
+#### 🔗 Optional: Linking Globally Installed Packages
+
+If the global package isn't accessible, you can manually link it:
+
+```bash
+npm link nodemon
+```
+
+---
 
 ### Require vs Import
 
