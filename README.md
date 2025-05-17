@@ -1,6 +1,7 @@
 # 🚀 Fullstack Development Learning Path
-
 <div align="center">
+<img src="https://media.giphy.com/media/2zeji2UedvZzvIZ45N/giphy.gif" alt="Terminal Power" />
+<br><br><br>
   
 ![Full Stack Development](https://img.shields.io/badge/Full%20Stack-Development-blue?style=for-the-badge)
 
