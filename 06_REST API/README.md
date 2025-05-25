@@ -541,7 +541,7 @@ app.patch("/posts/:id", (req, res) => {
 ---
 
 ### DESTROY - Delete Posts
-*5️⃣ Implementing : **DELETE /posts/:id DESTROY***
+*5️⃣ Implementing : **DELETE /posts/:id***
 
 **🎯 Goal:** Allow users to delete posts
 
