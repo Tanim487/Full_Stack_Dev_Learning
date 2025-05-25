@@ -74,6 +74,7 @@ Think of REST like a **set of rules** for building web APIs - like a recipe that
 ## Understanding CRUD Operations
 
 CRUD = **C**reate, **R**ead, **U**pdate, **D**elete
+<div align="center">
 
 | 🎯 Operation | 🌐 HTTP Method | 📝 What it Does | 💡 Real Example |
 |--------------|----------------|-----------------|------------------|
@@ -81,6 +82,7 @@ CRUD = **C**reate, **R**ead, **U**pdate, **D**elete
 | **Read** | `GET` | Get/retrieve data | Viewing all posts or one post |
 | **Update** | `PUT`/`PATCH` | Modify existing data | Editing a post |
 | **Delete** | `DELETE` | Remove data | Deleting a post |
+</div>
 
 ### 🔄 PUT vs PATCH
 - **PUT:** Replace the entire resource
@@ -92,7 +94,8 @@ CRUD = **C**reate, **R**ead, **U**pdate, **D**elete
 ## Standard REST Routes
 
 Every REST API follows these **standard patterns**:
-
+<div align="center">
+  
 | 🌐 Method | 🛣️ Route | 🎯 Purpose | 📛 Name | 💡 Example |
 |-----------|----------|------------|---------|-------------|
 | `GET` | `/posts` | Get all posts | **INDEX** | Show homepage with all posts |
@@ -103,6 +106,7 @@ Every REST API follows these **standard patterns**:
 | `PATCH` | `/posts/:id` | Update specific post | **UPDATE** | Process edit form |
 | `DELETE` | `/posts/:id` | Delete specific post | **DESTROY** | Remove the post |
 
+</div>
 > 💡 **Remember:** These are **universal patterns** - every REST API uses them!
 
 ---
@@ -889,6 +893,7 @@ app.listen(port, () => {
 ### 🔧 API Testing Tools
 
 **Using Hoppscotch/Postman for API testing:**
+<div align="center">
 
 | Method | URL | Body Type | Body Content | Expected Result |
 |--------|-----|-----------|--------------|-----------------|
@@ -897,6 +902,7 @@ app.listen(port, () => {
 | `GET` | `localhost:8080/posts/{id}` | None | None | Single post HTML |
 | `PATCH` | `localhost:8080/posts/{id}` | `x-www-form-urlencoded` | `content=updated content` | Redirect to /posts |
 | `DELETE` | `localhost:8080/posts/{id}` | None | None | Redirect to /posts |
+</div>
 
 ### 🐛 Common Issues & Solutions
 
