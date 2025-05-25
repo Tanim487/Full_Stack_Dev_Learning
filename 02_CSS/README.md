@@ -1,5 +1,5 @@
 # 🎨 CSS Essentials: A Structured Learning Path
-
+                                                                           – My Personal Learning Journal
 <div align="center">
   
 ![CSS Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/64px-CSS3_logo_and_wordmark.svg.png)
