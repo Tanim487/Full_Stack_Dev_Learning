@@ -144,7 +144,7 @@ These projects can be used as:
 ## Project Structure
 
 ```
-css-projects/
+Mini-projects/
 ├── 00-CSS-Playground/               # Basic CSS practice file while learning
 │   ├── index.html
 │   ├── style.css
