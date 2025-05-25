@@ -27,6 +27,8 @@ _A focused guide to help beginners learn REST API development with Express.js_
   - [Basic Server Setup](#basic-server-setup)
   - [Index - Show All Posts](#index---show-all-posts)
   - [CREATE - Add New Post](#create---add-new-post)
+    - [Understanding Redirect](#-understanding-redirect)
+    - [UUID Package](#-add-unique-ids-with-uuid)
   - [SHOW - View Single Post](#show---view-single-post)
   - [UPDATE - Edit Posts](#update---edit-posts)
   - [DESTROY - Delete Posts](#destroy---delete-posts)
