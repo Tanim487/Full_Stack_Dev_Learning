@@ -149,7 +149,7 @@ your-project/
 ├── package.json      # Project configuration
 ├── views/            # HTML templates
 │   ├── index.ejs     # Show all posts
-│   ├── form.ejs      # Create new post
+│   ├── new.ejs      # Create new post
 │   ├── view.ejs      # Show single post
 │   └── edit.ejs      # Edit post form
 └── public/           # Static files (CSS, images)
@@ -280,7 +280,7 @@ This needs **TWO routes**:
 ```javascript
 // Show the create form
 app.get("/posts/new", (req, res) => {
-    res.render("form.ejs");
+    res.render("new.ejs");
 });
 
 // Process the form submission
@@ -292,7 +292,7 @@ app.post("/posts", (req, res) => {
 });
 ```
 
-**📄 Create `views/form.ejs`:**
+**📄 Create `views/new.ejs`:**
 ```html
 <!DOCTYPE html>
 <html>
@@ -647,7 +647,7 @@ app.get("/posts", (req, res) => {
 
 // NEW - Show form for creating new post
 app.get("/posts/new", (req, res) => {
-    res.render("form.ejs");
+    res.render("new.ejs");
 });
 
 // SHOW - Display one specific post
@@ -702,49 +702,28 @@ app.listen(port, () => {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>📱 Posts from Paradis</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        .post { border: 1px solid #ddd; padding: 15px; margin: 10px 0; border-radius: 5px; }
-        .post-actions { margin-top: 10px; }
-        .post-actions a, .post-actions button { margin-right: 10px; }
-        button { background: #dc3545; color: white; border: none; padding: 5px 10px; border-radius: 3px; cursor: pointer; }
-        a { text-decoration: none; color: #007bff; }
-        a:hover { text-decoration: underline; }
-    </style>
+    <title>Posts from Paradis</title>
 </head>
 <body>
-    <h1>📱 Posts from Paradis Island</h1>
-    
-    <div class="posts-container">
-        <% for(post of posts) { %>
-            <div class="post">
-                <h2>👤 @<%= post.username %></h2>
-                <p>💬 <%= post.content %></p>
-                
-                <div class="post-actions">
-                    <a href="/posts/<%= post.id %>">👁️ View Details</a>
-                    <a href="/posts/<%= post.id %>/edit">✏️ Edit Post</a>
-                    <form method="post" action="/posts/<%= post.id %>?_method=DELETE" style="display: inline;">
-                        <button type="submit" onclick="return confirm('⚠️ Are you sure you want to delete this post?')">
-                            🗑️ Delete Post
-                        </button>
-                    </form>
-                </div>
-            </div>
-        <% } %>
-    </div>
-    
-    <div style="margin-top: 20px;">
-        <a href="/posts/new" style="background: #28a745; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">
-            ➕ Add New Post
-        </a>
-    </div>
+    <h2>All the posts are here,</h2>
+    <% for(post of posts){ %>
+        <small><%= post.id %></small>
+        <h2>@<%= post.username %></h2>
+        <h4><%= post.content %></h4>
+        <a href="/posts/<%= post.id %>">View Post</a> 
+        <a href="/posts/<%= post.id %>/edit">Edit Post</a>
+        <br><br>
+        <form method="post" action="/posts/<%= post.id %>?_method=DELETE">
+            <button>Delete Post</button>
+        </form>
+        <br><br>
+    <% } %>
+    <a href="/posts/new">Add new Post</a>
 </body>
 </html>
 ```
 
-### 📄 `views/form.ejs` (Create New Post)
+### 📄 `views/new.ejs` (Create New Post)
 
 ```html
 <!DOCTYPE html>
@@ -752,44 +731,14 @@ app.listen(port, () => {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>✍️ Create New Post</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        form { max-width: 500px; }
-        input, textarea { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 4px; }
-        button { background: #007bff; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; }
-        button:hover { background: #0056b3; }
-        a { color: #6c757d; text-decoration: none; }
-    </style>
+    <title>Write your post</title>
 </head>
 <body>
-    <h1>✍️ Create New Post</h1>
-    
     <form method="post" action="/posts">
-        <div>
-            <label>👤 Username:</label>
-            <input 
-                placeholder="Enter your username" 
-                type="text" 
-                name="username"
-                required
-            />
-        </div>
-        
-        <div>
-            <label>💬 Content:</label>
-            <textarea 
-                placeholder="What's on your mind?" 
-                name="content"
-                rows="4"
-                required
-            ></textarea>
-        </div>
-        
-        <button type="submit">📤 Create Post</button>
+        <input type="text" placeholder="enter username" name="username"><br><br>
+        <input type="text" placeholder="enter content" name="content"><br>
+        <br><button type="submit">Submit</button>
     </form>
-    
-    <p><a href="/posts">⬅️ Back to All Posts</a></p>
 </body>
 </html>
 ```
@@ -799,34 +748,20 @@ app.listen(port, () => {
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>📖 Post Details</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        .post-detail { border: 2px solid #007bff; padding: 20px; border-radius: 8px; max-width: 600px; }
-        .post-id { color: #6c757d; font-size: 0.9em; }
-        .actions { margin-top: 20px; }
-        .actions a { margin-right: 15px; color: #007bff; text-decoration: none; }
-        .actions a:hover { text-decoration: underline; }
-    </style>
-</head>
-<body>
-    <h1>📖 Post Details</h1>
-    
-    <div class="post-detail">
-        <p class="post-id"><strong>🆔 Post ID:</strong> <%= post.id %></p>
-        <h2>👤 @<%= post.username %></h2>
-        <p style="font-size: 1.1em; line-height: 1.5;">💬 <%= post.content %></p>
-    </div>
-    
-    <div class="actions">
-        <a href="/posts">⬅️ Back to All Posts</a>
-        <a href="/posts/<%= post.id %>/edit">✏️ Edit This Post</a>
-    </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>View Individual Post</title>
+  </head>
+  <body>
+    <h2>This post belongs to @<%= post.username %></h2>
+    <small><%= post.id %></small>
+    <h2>@<%= post.username %></h2>
+    <h4><%= post.content %></h4>
+    <a href="/posts">See All Post</a>
+  </body>
 </html>
+
 ```
 
 ### 📄 `views/edit.ejs` (Edit Post Form)
@@ -834,49 +769,23 @@ app.listen(port, () => {
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>✏️ Edit Post</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        .edit-container { max-width: 600px; }
-        .post-info { background: #f8f9fa; padding: 15px; border-radius: 5px; margin-bottom: 20px; }
-        textarea { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px; font-family: inherit; }
-        button { background: #28a745; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; }
-        button:hover { background: #218838; }
-        a { color: #6c757d; text-decoration: none; }
-    </style>
-</head>
-<body>
-    <h1>✏️ Edit Post</h1>
-    
-    <div class="edit-container">
-        <div class="post-info">
-            <p><strong>🆔 Post ID:</strong> <%= post.id %></p>
-            <p><strong>👤 Author:</strong> @<%= post.username %></p>
-        </div>
-        
-        <form method="post" action="/posts/<%= post.id %>?_method=PATCH">
-            <div>
-                <label><strong>💬 Edit Content:</strong></label>
-                <!-- ⚠️ CRITICAL: name="content" must match req.body.content -->
-                <textarea 
-                    name="content" 
-                    rows="6" 
-                    required
-                ><%= post.content %></textarea>
-            </div>
-            
-            <button type="submit">💾 Save Changes</button>
-        </form>
-        
-        <p style="margin-top: 15px;">
-            <a href="/posts">⬅️ Back to All Posts</a>
-        </p>
-    </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Post</title>
+  </head>
+  <body>
+    <h2>This post belongs to @<%= post.username %></h2>
+    <small><%= post.id %></small>
+    <h2>@<%= post.username %></h2>
+    <form method="post" action="/posts/<%= post.id %>?_method=PATCH">
+        <textarea name="content" cols="70" rows="15"><%= post.content %></textarea>
+        <button type="submit">Submit</button>
+    </form>
+    <a href="/posts">Go back</a>
+  </body>
 </html>
+
 ```
 
 ---
