@@ -1,0 +1,230 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Typography */
+h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+h4 {
+    color: #34495e;
+    margin-bottom: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: white;
+    padding: 15px;
+    border-radius: 6px;
+    border-left: 4px solid #3498db;
+}
+
+small {
+    color: #7f8c8d;
+    font-size: 12px;
+    background-color: #ecf0f1;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+/* Forms */
+form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: inherit;
+    transition: border-color 0.3s ease;
+    margin-bottom: 15px;
+}
+
+input[type="text"]:focus, textarea:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+    font-family: inherit;
+}
+
+/* Buttons */
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: translateY(-1px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+/* Delete form styling - targets forms with DELETE method */
+form[action*="DELETE"] {
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+form[action*="DELETE"] button {
+    background-color: #e74c3c;
+    font-size: 12px;
+    padding: 8px 16px;
+    margin-top: 5px;
+}
+
+form[action*="DELETE"] button:hover {
+    background-color: #c0392b;
+}
+
+/* Links */
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    display: inline-block;
+    margin: 8px 15px 8px 0;
+    padding: 8px 16px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background-color: #e9ecef;
+    border-color: #adb5bd;
+    text-decoration: none;
+    color: #2980b9;
+}
+
+/* Special styling for new post link */
+a[href="/posts/new"] {
+    background-color: #27ae60;
+    color: white;
+    border-color: #27ae60;
+    font-weight: 600;
+}
+
+a[href="/posts/new"]:hover {
+    background-color: #229954;
+    border-color: #229954;
+    color: white;
+}
+
+/* Back link styling */
+a[href="/posts"] {
+    background-color: #6c757d;
+    color: white;
+    border-color: #6c757d;
+}
+
+a[href="/posts"]:hover {
+    background-color: #5a6268;
+    border-color: #5a6268;
+    color: white;
+}
+
+/* Post separation - add spacing between posts */
+body > small {
+    margin-top: 30px;
+}
+
+body > small:first-of-type {
+    margin-top: 0;
+}
+
+/* Username highlighting */
+h2:nth-of-type(2) {
+    color: #8e44ad;
+    margin-top: 10px;
+}
+
+/* Content spacing */
+h4 + a {
+    margin-top: 15px;
+}
+
+/* Input placeholders */
+input::placeholder {
+    color: #95a5a6;
+    font-style: italic;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    
+    form {
+        padding: 20px;
+    }
+    
+    input[type="text"], textarea {
+        font-size: 16px; /* Prevents zoom on iOS */
+    }
+    
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    a {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    
+    h2 {
+        font-size: 18px;
+    }
+    
+    h4 {
+        font-size: 16px;
+        padding: 12px;
+    }
+}
