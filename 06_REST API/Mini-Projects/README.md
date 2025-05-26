@@ -2,7 +2,8 @@
 
 <div align="center">
 
-<img src="https://cdn-icons-png.flaticon.com/512/919/919827.png" alt="Node.js Icon" width="60"/>
+<img src="https://cdn-icons-png.flaticon.com/512/2913/2913461.png" alt="REST API Icon" width="60"/>
+
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![made-with-Node.js](https://img.shields.io/badge/Made%20with-Node.js-1f425f.svg)](https://nodejs.org/)
@@ -89,7 +90,7 @@ This project was developed using modern web technologies:
 ## Project Structure
 
 ```
-rest-api-project/
+post handling project/
 ├── views/                          # EJS template files
 │   ├── index.ejs                  # Main posts listing page
 │   ├── form.ejs                   # New post creation form
@@ -167,7 +168,7 @@ The application provides the following RESTful endpoints:
 
 | Main Posts Page | Individual Post View | Edit Post Form |
 |-----------------|---------------------|----------------|
-| ![Main Page](https://via.placeholder.com/300x200/4CAF50/white?text=Posts+List) | ![Post View](https://via.placeholder.com/300x200/2196F3/white?text=Post+Details) | ![Edit Form](https://via.placeholder.com/300x200/FF9800/white?text=Edit+Post) |
+| ![Main Page](https://raw.githubusercontent.com/Tanim487/Full_Stack_Dev_Learning/main/06_REST%20API/Mini-Projects/screenshots/000.png) | ![Post View](https://raw.githubusercontent.com/Tanim487/Full_Stack_Dev_Learning/main/06_REST%20API/Mini-Projects/screenshots/001.png)  | ![Edit Form](https://raw.githubusercontent.com/Tanim487/Full_Stack_Dev_Learning/main/06_REST%20API/Mini-Projects/screenshots/002.png)  |
 | View all posts with actions | Detailed post view | Edit existing posts |
 
 </div>
