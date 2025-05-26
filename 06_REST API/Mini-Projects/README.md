@@ -12,7 +12,7 @@
 
 _A full-featured REST API application demonstrating CRUD operations with Express.js and EJS templating_
 
-[Live Demo](#getting-started) • [API Documentation](#api-endpoints) • [Screenshots](#project-screenshots)
+ [API Documentation](#api-endpoints) • [Screenshots](#project-screenshots)
 </div>
 
 ## 📋 Table of Contents
